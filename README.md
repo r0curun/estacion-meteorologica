@@ -21,7 +21,7 @@ crear cuentas ni API keys.
 - 🎨 Iconos del clima como imágenes BMP cargadas desde microSD (con
   respaldo automático a iconos vectoriales si no hay tarjeta)
 - 🌓 Tema oscuro, pensado para dejarlo prendido en un velador o escritorio
-- 🔒 Credenciales WiFi separadas del código fuente (`config.h`, fuera de git)
+- 🔒 Credenciales WiFi separadas del código fuente (`config.h`)
 
 ## 🛠️ Hardware necesario
 
@@ -51,7 +51,6 @@ estacion_meteorologica/
 ├── icons/                       # iconos del clima en BMP (opcional, para la SD)
 │   ├── big/
 │   └── small/
-├── CHANGELOG.md
 ├── LICENSE
 └── README.md
 ```
