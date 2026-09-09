@@ -46,9 +46,9 @@ crear cuentas ni API keys.
 ```
 estacion_meteorologica/
 ├── estacion_meteorologica.ino   # sketch principal
-├── config.h.example             # plantilla de WiFi/ubicacion (copiar a config.h)
-├── Setup_ES3C28P.h               # configuracion de pines para TFT_eSPI
-├── icons/                        # iconos del clima en BMP (opcional, para la SD)
+├── config.h.                    # plantilla de WiFi/ubicacion (copiar a config.h)
+├── Setup_ES3C28P.h              # configuracion de pines para TFT_eSPI
+├── icons/                       # iconos del clima en BMP (opcional, para la SD)
 │   ├── big/
 │   └── small/
 ├── CHANGELOG.md
@@ -89,12 +89,10 @@ Luego edita `TFT_eSPI/User_Setup_Select.h`: comenta la línea
 ### 3. Configurar tus datos privados
 
 ```bash
-cp config.h.example config.h
+config.h
 ```
 Edita `config.h` con tu WiFi, tu ubicación (coordenadas en
-(https://www.latlong.net/)) y tu zona horaria. Este archivo
-está en `.gitignore`: si subes tu propio fork a GitHub, tus datos no se
-suben.
+(https://www.latlong.net/)) y tu zona horaria. 
 
 ### 4. (Opcional) Íconos con imagen en la microSD
 
