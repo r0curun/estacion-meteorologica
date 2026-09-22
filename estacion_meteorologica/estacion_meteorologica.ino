@@ -9,7 +9,7 @@
   ============================================================
 
   ANTES DE SUBIR EL SKETCH, REVISA ESTO:
-   1) Copia "config.h.example" como "config.h" y pon tu WiFi y ubicacion
+   1) En "config.h" pon tu WiFi y ubicacion
       (config.h esta en .gitignore, nunca se sube a GitHub)
    2) Que hayas configurado TFT_eSPI con el archivo
       "Setup_ES3C28P.h" que viene junto a este sketch
@@ -24,7 +24,7 @@
 #include <time.h>
 #include "FS.h"
 #include "SD_MMC.h"
-#include "config.h" // tus datos privados: ver config.h.example
+#include "config.h" // tus datos privados: ver config.h
 
 
 // Cada cuanto se actualiza el clima (en milisegundos)
